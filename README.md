@@ -143,6 +143,4 @@ Technologies Used
 - Jupyter Notebook
 Author
 Muhammad Muneeb
-```bash
-python -m pip install -r requirements.txt
 
