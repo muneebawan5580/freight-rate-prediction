@@ -121,7 +121,28 @@ The scorer-generated December chart is included in the project results.
 ## Installation
 
 Install the required Python packages using:
+Running the Project
+Run the Jupyter Notebook:
+jupyter notebook freight_rate_prediction.ipynb
 
+After generating the prediction files, validate them using:
+python score.py --predictions validation_predictions.csv --december-predictions december-chart-inputs.csv
+
+A successful run validates:
+- 12,000 validation predictions
+- 31 fixed December predictions
+and generates:
+scorer_results/candidate_december.png
+Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+Author
+Muhammad Muneeb
 ```bash
 python -m pip install -r requirements.txt
 
